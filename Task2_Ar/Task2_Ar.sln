@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2_Ar", "Task2_Ar\Task2_Ar.csproj", "{1CB7DC97-C093-4014-AA17-12690BEA02BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAr", "TestAr\TestAr.csproj", "{B6833AC8-E6C3-4AA9-92F8-BAE1D30D25CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CB7DC97-C093-4014-AA17-12690BEA02BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB7DC97-C093-4014-AA17-12690BEA02BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB7DC97-C093-4014-AA17-12690BEA02BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB7DC97-C093-4014-AA17-12690BEA02BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6833AC8-E6C3-4AA9-92F8-BAE1D30D25CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6833AC8-E6C3-4AA9-92F8-BAE1D30D25CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6833AC8-E6C3-4AA9-92F8-BAE1D30D25CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6833AC8-E6C3-4AA9-92F8-BAE1D30D25CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE9E1393-A498-4451-B200-1BCFE4511886}
+	EndGlobalSection
+EndGlobal
