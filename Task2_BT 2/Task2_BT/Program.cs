@@ -8,46 +8,7 @@ using static Task2_BT.Program;
 
 namespace Task2_BT
 {
-    public class Program
-    {
-        // Объявляем делегат
-        public delegate void AddItemToTreeHandler(string message);
-        // метод для вывода сообщений о добавлении элемента в дерево
-        public static void Show_Message(String message)
-        {
-            Console.WriteLine(message);
-        }
-
-        public static void Main(string[] args)
-        {                       
-
-            DateTime d1 = new DateTime(2019, 12, 2);
-            StudentInfo s1 = new StudentInfo() { StudentName = "Petr", TestName = "Mat", TestTime = d1, TestMark = 8 };
-            StudentInfo s2 = new StudentInfo() { StudentName = "Niko", TestName = "Mat", TestTime = d1, TestMark = 9 };
-            StudentInfo s3 = new StudentInfo() { StudentName = "Jenya", TestName = "Mat", TestTime = d1, TestMark = 5};
-            StudentInfo s4 = new StudentInfo() { StudentName = "Niko", TestName = "Mat", TestTime = d1, TestMark = 4 };
-            StudentInfo s5 = new StudentInfo() { StudentName = "Zina", TestName = "Mat", TestTime = d1, TestMark = 10 };
-            StudentInfo s6 = new StudentInfo() { StudentName = "Fedor", TestName = "Mat", TestTime = d1, TestMark = 1 };
-
-            
-
-            BinaryTree<StudentInfo> StInfos = new BinaryTree<StudentInfo>(s1);
-            
-            // Добавляем обработчики события
-            StInfos.MessageAdd += Show_Message;
-
-            // добавляем элементы с помощью метода расширения
-            StInfos.InsertItems<StudentInfo>(s2, s3, s4, s5, s6);
-
-            Console.WriteLine("\n BinaryTree have next elements:");
-            foreach (var StInfo in StInfos)
-            {
-                Console.WriteLine(StInfo);
-            }     
-
-            Console.ReadLine();
-        }
-    }
+    
 
     public class StudentInfo : IComparable<StudentInfo>
     {
